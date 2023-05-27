@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-
 body {
     margin: 0;
-    font-size: 'Noto sans', sans-serif;
+    font-family: sans-serif;
 }
 
 .main-login {
@@ -24,32 +22,62 @@ body {
     
 }
 
+.left-login img{
+    width: 35vw;
+    height: 60vh;
+}
+
+.left-login h1 {
+    
+    color: #405189;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
 .right-login {
     width: 35vw;
-    height: 100vh;
+    height: 110vh;
     background: #405189;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 .card-login {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+    width: 70%;
+    height: 100vh;
+    display: flex;  
     align-items: center;
     flex-direction: column;
-    padding: 30px 35px;
+    
 }
+
+.card-login img {
+    width: 180px;
+    padding: 15px 0px 50px 0px;
+    
+}
+
+.card-login a {
+    color: #ffff;
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+}
+
 
 
 .card-login h1 {
     color: #ffff;
     font-size: 50px;
     text-transform: uppercase;
-    margin: 0;
+    padding: 20px 0px 0px 0px;
 }
 
+.card-login esqueceu {
+    padding: 0px 0px 30px 0px;
+}
 
 .textfield {
     width: 100%;
@@ -58,14 +86,19 @@ body {
     align-items: flex-start;
     justify-content: center;
     margin: 10px;
-    font-size: 20px;
+    font-size: 23px;
+}
+
+.textfield a {
+    color: #ffff;
+    text-decoration: none;
 }
 
 .textfield > input {
     width: 100%;
     border: none;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10;
     color: #f0ffffde;
     font-size: 12pt;
     box-sizing: border-box;
@@ -73,14 +106,13 @@ body {
 
 .textfield > label {
     color: #ffff;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 .textfield > input::placeholder {
     color: #7C7C7C;
 }
 
-.card-login
 
 .btn-login {
     width: 50%;
@@ -88,9 +120,8 @@ body {
     margin: 25px;
     border: none;
     border-radius: 8px;
-    outline: none;
     font-weight: 800;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #ffff;
     background: #0073EA;
     cursor: pointer;
